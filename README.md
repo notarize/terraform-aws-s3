@@ -1,6 +1,6 @@
 # aws-terraform-s3
 
-This module builds a s3 bucket with varying options.  
+This module builds a S3 bucket with varying options.  
 It will not do s3 origin, which is in another module.
 
 ## Basic Usage
