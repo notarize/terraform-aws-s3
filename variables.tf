@@ -159,3 +159,9 @@ variable "website_index" {
   type        = string
   default     = "index.html"
 }
+
+variable "replication_configuration" {
+  description = "Map containing cross-region replication configuration."
+  type        = any
+  default     = {}
+}
