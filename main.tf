@@ -67,7 +67,6 @@ locals {
   acl_list = ["authenticated-read", "aws-exec-read", "bucket-owner-read", "bucket-owner-full-control", "log-delivery-write", "private", "public-read", "public-read-write"]
 
   default_tags = {
-    ServiceProvider = "Rackspace"
     Environment     = var.environment
   }
 
